@@ -104,7 +104,7 @@ def generate_reactions(labels):
     model = TextGenerationModel.from_pretrained("text-bison@001")
 
     # Generate a response by providing the input text and model parameters
-    prompt = f"Possible reactions between {', '.join(labels)}, "
+    prompt = f"Possible reactions between {', '.join(labels)}, if no reactions are possible explain the physical phenomenon that these objects are able of performing, and if not that explain their structure and architecture "
     response = model.predict(
         prompt,  # Format the input text
         **parameters,  # Pass the defined parameters

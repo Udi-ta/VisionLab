@@ -152,7 +152,7 @@ limitations under the License. -->
     class="bg-blue-600 flex-row flex text-white p-4 shadow-lg text-xl mt-4 lg:mt-16 sticky top-[100vh]"
   >
     <a
-      href="https://github.com/bhaaratkrishnan/vertex-summarizer-svelte"
+      href="https://github.com/Udi-ta/VisionLab"
       target="_blank"
     >
       <div>Made by Udita</div>
